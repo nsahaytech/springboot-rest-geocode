@@ -45,7 +45,7 @@ public class ShopController {
 		private static final Logger LOGGER = LoggerFactory.getLogger(ShopController.class);
 
 		@Autowired
-		@Qualifier("shopService")
+		
 		private ShopService shopService;
 
 		@ApiOperation(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE, httpMethod = "POST", value = "", response = String.class, notes = "Save the shop details")

@@ -1,312 +1,12 @@
-2017-05-28 11:54:00 - Starting RetailMgrAppServer on nsahaytech with PID 13674 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 11:54:00 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 11:54:00 - No active profile set, falling back to default profiles: default
-2017-05-28 11:56:19 - Application startup failed
-java.lang.IllegalStateException: Logback configuration error detected: 
-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [CONSOLE]. Did you define it below instead of above in the configuration file?
-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [CONSOLE]. Did you define it below instead of above in the configuration file?
-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
-	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
-	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
-	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
-	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
-	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
-	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
-	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
-	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
-	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
-	at com.ns.retailmgr.RetailMgrAppServer.main(RetailMgrAppServer.java:26)
-2017-05-28 11:56:36 - Application startup failed
-java.lang.IllegalStateException: Logback configuration error detected: 
-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [CONSOLE]. Did you define it below instead of above in the configuration file?
-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [CONSOLE]. Did you define it below instead of above in the configuration file?
-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
-	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
-	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
-	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
-	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
-	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
-	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
-	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
-	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
-	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
-	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
-	at com.ns.retailmgr.RetailMgrAppServer.main(RetailMgrAppServer.java:26)
-2017-05-28 11:57:13 - Starting RetailMgrAppServer on nsahaytech with PID 13946 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 11:57:13 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 11:57:13 - No active profile set, falling back to default profiles: default
-2017-05-28 11:57:13 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 11:57:13 IST 2017]; root of context hierarchy
-2017-05-28 11:57:15 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6ccc0d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2017-05-28 11:57:16 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 11:57:16 - Root WebApplicationContext: initialization completed in 2882 ms
-2017-05-28 11:57:16 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 11:57:16 - Mapping servlet: 'webServlet' to [/h2-console/*]
-2017-05-28 11:57:16 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 11:57:16 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 11:57:16 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 11:57:16 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 11:57:17 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2017-05-28 11:57:17 - Executing SQL script from class path resource [sql/create-shop.sql]
-2017-05-28 11:57:17 - Executed SQL script from class path resource [sql/create-shop.sql] in 9 ms.
-2017-05-28 11:57:18 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopDetails)
-2017-05-28 11:57:18 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 11:57:18 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 11:57:18 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 11:57:18 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 11:57:18 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 11:57:18 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 11:57:18 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 11:57:18 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 11:57:13 IST 2017]; root of context hierarchy
-2017-05-28 11:57:18 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 11:57:18 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 11:57:18 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 11:57:18 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 11:57:19 - Registering beans for JMX exposure on startup
-2017-05-28 11:57:19 - Starting beans in phase 2147483647
-2017-05-28 11:57:19 - Tomcat started on port(s): 8080 (http)
-2017-05-28 11:57:19 - Started RetailMgrAppServer in 6.791 seconds (JVM running for 7.427)
-2017-05-28 11:57:36 - Application shutdown requested.
-2017-05-28 11:57:36 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 11:57:13 IST 2017]; root of context hierarchy
-2017-05-28 11:57:36 - Stopping beans in phase 2147483647
-2017-05-28 11:57:36 - Unregistering JMX-exposed beans on shutdown
-2017-05-28 11:57:36 - Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
-2017-05-28 12:08:54 - Starting RetailMgrAppServer on nsahaytech with PID 14540 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 12:08:54 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 12:08:54 - No active profile set, falling back to default profiles: default
-2017-05-28 12:08:54 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 12:08:54 IST 2017]; root of context hierarchy
-2017-05-28 12:08:56 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6ccc0d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2017-05-28 12:08:57 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 12:08:57 - Root WebApplicationContext: initialization completed in 2730 ms
-2017-05-28 12:08:57 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 12:08:57 - Mapping servlet: 'webServlet' to [/h2-console/*]
-2017-05-28 12:08:57 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 12:08:57 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 12:08:57 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 12:08:57 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 12:08:58 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2017-05-28 12:08:58 - Executing SQL script from class path resource [sql/create-shop.sql]
-2017-05-28 12:08:58 - Executed SQL script from class path resource [sql/create-shop.sql] in 9 ms.
-2017-05-28 12:08:59 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopDetails)
-2017-05-28 12:08:59 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 12:08:59 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 12:08:59 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 12:08:59 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 12:08:59 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 12:08:59 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 12:08:59 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 12:08:59 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 12:08:54 IST 2017]; root of context hierarchy
-2017-05-28 12:08:59 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:08:59 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:08:59 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 12:08:59 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:09:00 - Registering beans for JMX exposure on startup
-2017-05-28 12:09:00 - Starting beans in phase 2147483647
-2017-05-28 12:09:00 - Tomcat started on port(s): 8080 (http)
-2017-05-28 12:09:00 - Started RetailMgrAppServer in 6.222 seconds (JVM running for 6.799)
-2017-05-28 12:24:45 - Application shutdown requested.
-2017-05-28 12:24:45 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 12:08:54 IST 2017]; root of context hierarchy
-2017-05-28 12:24:45 - Stopping beans in phase 2147483647
-2017-05-28 12:24:45 - Unregistering JMX-exposed beans on shutdown
-2017-05-28 12:24:45 - Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
-2017-05-28 12:53:52 - Starting RetailMgrAppServer on nsahaytech with PID 17334 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 12:53:52 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 12:53:52 - No active profile set, falling back to default profiles: default
-2017-05-28 12:53:52 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 12:53:52 IST 2017]; root of context hierarchy
-2017-05-28 12:53:54 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b6933ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2017-05-28 12:53:54 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 12:53:55 - Root WebApplicationContext: initialization completed in 2835 ms
-2017-05-28 12:53:55 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 12:53:55 - Mapping servlet: 'webServlet' to [/h2-console/*]
-2017-05-28 12:53:55 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 12:53:55 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 12:53:55 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 12:53:55 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 12:53:55 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2017-05-28 12:53:56 - Executing SQL script from class path resource [sql/create-shop.sql]
-2017-05-28 12:53:56 - Executed SQL script from class path resource [sql/create-shop.sql] in 5 ms.
-2017-05-28 12:53:57 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopDetails)
-2017-05-28 12:53:57 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 12:53:57 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 12:53:57 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 12:53:57 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 12:53:57 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 12:53:57 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 12:53:57 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 12:53:57 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 12:53:52 IST 2017]; root of context hierarchy
-2017-05-28 12:53:57 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:53:57 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:53:57 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 12:53:57 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:53:57 - Registering beans for JMX exposure on startup
-2017-05-28 12:53:57 - Starting beans in phase 2147483647
-2017-05-28 12:53:57 - Tomcat started on port(s): 8080 (http)
-2017-05-28 12:53:57 - Started RetailMgrAppServer in 6.226 seconds (JVM running for 6.871)
-2017-05-28 12:54:03 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-05-28 12:54:03 - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
-2017-05-28 12:54:03 - Started endpoint method saveShop, params - com.ns.retailmgr.shops.model.ShopDetails@558629f0
-2017-05-28 12:54:03 - Started method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@558629f0
-2017-05-28 12:54:03 - Started method getLngLatByAddress - params 12
-2017-05-28 12:54:05 - Starting method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@558629f0 
-2017-05-28 12:54:08 - Started endpoint method saveShop, params - com.ns.retailmgr.shops.model.ShopDetails@7c004680
-2017-05-28 12:54:08 - Started method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@7c004680
-2017-05-28 12:54:08 - Started method getLngLatByAddress - params 12
-2017-05-28 12:54:08 - Starting method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@7c004680 
-2017-05-28 12:54:08 - Started endpoint method saveShop, params - com.ns.retailmgr.shops.model.ShopDetails@2a982047
-2017-05-28 12:54:08 - Started method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@2a982047
-2017-05-28 12:54:08 - Started method getLngLatByAddress - params 12
-2017-05-28 12:54:08 - Starting method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@2a982047 
-2017-05-28 12:54:09 - Started endpoint method saveShop, params - com.ns.retailmgr.shops.model.ShopDetails@61c2e8b7
-2017-05-28 12:54:09 - Started method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@61c2e8b7
-2017-05-28 12:54:09 - Started method getLngLatByAddress - params 12
-2017-05-28 12:54:10 - Starting method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@61c2e8b7 
-2017-05-28 12:54:10 - Started endpoint method saveShop, params - com.ns.retailmgr.shops.model.ShopDetails@1108ca6e
-2017-05-28 12:54:10 - Started method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@1108ca6e
-2017-05-28 12:54:10 - Started method getLngLatByAddress - params 12
-2017-05-28 12:54:10 - Starting method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@1108ca6e 
-2017-05-28 12:54:10 - Started endpoint method saveShop, params - com.ns.retailmgr.shops.model.ShopDetails@29e50b6d
-2017-05-28 12:54:10 - Started method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@29e50b6d
-2017-05-28 12:54:10 - Started method getLngLatByAddress - params 12
-2017-05-28 12:54:10 - Starting method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@29e50b6d 
-2017-05-28 12:56:39 - Started endpoint method getNearByShops, params - [30.4176446, -93.4923028]
-2017-05-28 12:56:39 - Started method findShopNearByLatLng with params - [30.4176446, -93.4923028]
-2017-05-28 12:56:39 - Started method getNearestShopDetails - params 30.4176446,-93.4923028
-2017-05-28 12:57:26 - Application shutdown requested.
-2017-05-28 12:57:26 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 12:53:52 IST 2017]; root of context hierarchy
-2017-05-28 12:57:26 - Stopping beans in phase 2147483647
-2017-05-28 12:57:26 - Unregistering JMX-exposed beans on shutdown
-2017-05-28 12:57:26 - Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
-2017-05-28 12:57:39 - Starting RetailMgrAppServer on nsahaytech with PID 17570 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 12:57:39 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 12:57:39 - No active profile set, falling back to default profiles: default
-2017-05-28 12:57:39 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 12:57:39 IST 2017]; root of context hierarchy
-2017-05-28 12:57:41 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5bd86eed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2017-05-28 12:57:42 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 12:57:42 - Root WebApplicationContext: initialization completed in 2707 ms
-2017-05-28 12:57:42 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 12:57:42 - Mapping servlet: 'webServlet' to [/h2-console/*]
-2017-05-28 12:57:42 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 12:57:42 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 12:57:42 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 12:57:42 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 12:57:43 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2017-05-28 12:57:43 - Executing SQL script from class path resource [sql/create-shop.sql]
-2017-05-28 12:57:43 - Executed SQL script from class path resource [sql/create-shop.sql] in 8 ms.
-2017-05-28 12:57:44 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopDetails)
-2017-05-28 12:57:44 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 12:57:44 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 12:57:44 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 12:57:44 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 12:57:44 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 12:57:44 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 12:57:44 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 12:57:44 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 12:57:39 IST 2017]; root of context hierarchy
-2017-05-28 12:57:44 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:57:44 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:57:45 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 12:57:45 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 12:57:45 - Registering beans for JMX exposure on startup
-2017-05-28 12:57:45 - Starting beans in phase 2147483647
-2017-05-28 12:57:46 - Tomcat started on port(s): 8080 (http)
-2017-05-28 12:57:46 - Started RetailMgrAppServer in 7.052 seconds (JVM running for 8.115)
-2017-05-28 12:58:44 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-05-28 12:58:44 - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
-2017-05-28 12:58:44 - Started endpoint method saveShop, params - com.ns.retailmgr.shops.model.ShopDetails@5a0f7417
-2017-05-28 12:58:56 - Started method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@5a0f7417
-2017-05-28 12:58:56 - Started method getLngLatByAddress - params 0
-2017-05-28 12:59:03 - Starting method saveShopDetails with params - com.ns.retailmgr.shops.model.ShopDetails@5a0f7417 
-2017-05-28 13:59:08 - Starting RetailMgrAppServer on nsahaytech with PID 20875 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 13:59:08 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 13:59:08 - No active profile set, falling back to default profiles: default
-2017-05-28 13:59:08 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 13:59:08 IST 2017]; root of context hierarchy
-2017-05-28 13:59:10 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db83fd50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2017-05-28 13:59:10 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 13:59:10 - Root WebApplicationContext: initialization completed in 2354 ms
-2017-05-28 13:59:11 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 13:59:11 - Mapping servlet: 'webServlet' to [/h2-console/*]
-2017-05-28 13:59:11 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 13:59:11 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 13:59:11 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 13:59:11 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 13:59:12 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopAddress)
-2017-05-28 13:59:12 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 13:59:12 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 13:59:12 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 13:59:12 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 13:59:12 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 13:59:12 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 13:59:12 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 13:59:12 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2017-05-28 13:59:12 - Executing SQL script from class path resource [sql/create-shop.sql]
-2017-05-28 13:59:12 - Executed SQL script from class path resource [sql/create-shop.sql] in 5 ms.
-2017-05-28 13:59:12 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 13:59:08 IST 2017]; root of context hierarchy
-2017-05-28 13:59:12 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 13:59:12 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 13:59:12 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 13:59:12 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 13:59:13 - Registering beans for JMX exposure on startup
-2017-05-28 13:59:13 - Starting beans in phase 2147483647
-2017-05-28 13:59:13 - Tomcat started on port(s): 8080 (http)
-2017-05-28 13:59:13 - Started RetailMgrAppServer in 5.752 seconds (JVM running for 6.291)
-2017-05-28 13:59:50 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-05-28 13:59:50 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
-2017-05-28 14:04:52 - Started endpoint method saveShop, params - {}
-2017-05-28 14:04:52 - Started method saveShopDetails with params - {}
-2017-05-28 14:04:52 - Started method getLngLatByAddress - params 560100
-2017-05-28 14:06:36 - Started endpoint method getNearByShops, params - [12.8751739, 77.71305129999999]
-2017-05-28 14:06:36 - Started method findShopNearByLatLng with params - [12.8751739, 77.71305129999999]
-2017-05-28 14:06:36 - Started method getNearestShopDetails - params 12.8751739,77.71305129999999
-2017-05-28 15:26:02 - Starting RetailMgrAppServer on nsahaytech with PID 22348 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 15:26:02 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 15:26:02 - No active profile set, falling back to default profiles: default
-2017-05-28 15:26:02 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 15:26:02 IST 2017]; root of context hierarchy
-2017-05-28 15:26:06 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4da2d050] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2017-05-28 15:26:07 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 15:26:07 - Root WebApplicationContext: initialization completed in 4376 ms
-2017-05-28 15:26:07 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 15:26:07 - Mapping servlet: 'webServlet' to [/h2-console/*]
-2017-05-28 15:26:07 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 15:26:07 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 15:26:07 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 15:26:07 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 15:26:09 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 15:26:09 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopAddress)
-2017-05-28 15:26:09 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 15:26:09 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 15:26:09 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 15:26:09 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 15:26:09 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 15:26:09 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 15:26:10 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2017-05-28 15:26:10 - Executing SQL script from class path resource [sql/create-shop.sql]
-2017-05-28 15:26:10 - Executed SQL script from class path resource [sql/create-shop.sql] in 19 ms.
-2017-05-28 15:26:11 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 15:26:02 IST 2017]; root of context hierarchy
-2017-05-28 15:26:11 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:26:11 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:26:11 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 15:26:11 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:26:12 - Registering beans for JMX exposure on startup
-2017-05-28 15:26:12 - Starting beans in phase 2147483647
-2017-05-28 15:26:12 - 
+2017-05-28 23:09:42 - Starting ShopControllerTest on nsahaytech with PID 16333 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:09:42 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:09:42 - No active profile set, falling back to default profiles: default
+2017-05-28 23:09:42 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2ddc9a9f: startup date [Sun May 28 23:09:42 IST 2017]; root of context hierarchy
+2017-05-28 23:09:43 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+2017-05-28 23:09:43 - 
 
 Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
-2017-05-28 15:26:12 - 
+2017-05-28 23:09:44 - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -314,443 +14,406 @@ APPLICATION FAILED TO START
 
 Description:
 
-The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+Field shopService in com.ns.retailmgr.controller.ShopController required a bean of type 'com.ns.retailmgr.shops.service.ShopService' that could not be found.
+
 
 Action:
 
-Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+Consider defining a bean of type 'com.ns.retailmgr.shops.service.ShopService' in your configuration.
 
-2017-05-28 15:26:12 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 15:26:02 IST 2017]; root of context hierarchy
-2017-05-28 15:26:12 - Stopping beans in phase 2147483647
-2017-05-28 15:26:12 - Unregistering JMX-exposed beans on shutdown
-2017-05-28 15:26:12 - Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
-2017-05-28 15:29:00 - Starting RetailMgrAppServer on nsahaytech with PID 22557 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 15:29:00 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 15:29:00 - No active profile set, falling back to default profiles: default
-2017-05-28 15:29:00 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 15:29:00 IST 2017]; root of context hierarchy
-2017-05-28 15:29:02 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2d9b724] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2017-05-28 15:29:02 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 15:29:03 - Root WebApplicationContext: initialization completed in 2879 ms
-2017-05-28 15:29:03 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 15:29:03 - Mapping servlet: 'webServlet' to [/h2-console/*]
-2017-05-28 15:29:03 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 15:29:03 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 15:29:03 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 15:29:03 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 15:29:04 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 15:29:04 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopAddress)
-2017-05-28 15:29:04 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 15:29:04 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 15:29:04 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 15:29:04 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 15:29:04 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 15:29:04 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 15:29:04 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2017-05-28 15:29:05 - Executing SQL script from class path resource [sql/create-shop.sql]
-2017-05-28 15:29:05 - Executed SQL script from class path resource [sql/create-shop.sql] in 6 ms.
-2017-05-28 15:29:05 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 15:29:00 IST 2017]; root of context hierarchy
-2017-05-28 15:29:05 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:29:05 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:29:05 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 15:29:05 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:29:06 - Registering beans for JMX exposure on startup
-2017-05-28 15:29:06 - Starting beans in phase 2147483647
-2017-05-28 15:29:06 - Tomcat started on port(s): 8080 (http)
-2017-05-28 15:29:06 - Started RetailMgrAppServer in 7.025 seconds (JVM running for 8.03)
-2017-05-28 15:29:48 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-05-28 15:29:48 - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
-2017-05-28 15:29:48 - Started endpoint method saveShop, params - {}
-2017-05-28 15:29:59 - Started method saveShopDetails with params - {}
-2017-05-28 15:29:59 - Exception {}
-java.lang.NullPointerException: null
-	at com.ns.retailmgr.shops.service.ShopServiceImpl.addShop(ShopServiceImpl.java:55)
-	at com.ns.retailmgr.controller.ShopController.saveShop(ShopController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-2017-05-28 15:31:02 - Started endpoint method getNearByShops, params - [12.8751739, 77.71305129999999]
-2017-05-28 15:31:02 - Started method findShopNearByLatLng with params - [12.8751739, 77.71305129999999]
-2017-05-28 15:31:02 - Started method getNearestShopDetails - params 12.8751739,77.71305129999999
-2017-05-28 15:37:43 - Starting RetailMgrAppServer on nsahaytech with PID 23310 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 15:37:43 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 15:37:43 - No active profile set, falling back to default profiles: default
-2017-05-28 15:37:43 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 15:37:43 IST 2017]; root of context hierarchy
-2017-05-28 15:37:45 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b896cdf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2017-05-28 15:37:46 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 15:37:46 - Root WebApplicationContext: initialization completed in 3045 ms
-2017-05-28 15:37:46 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 15:37:46 - Mapping servlet: 'webServlet' to [/h2-console/*]
-2017-05-28 15:37:46 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 15:37:46 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 15:37:46 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 15:37:46 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 15:37:48 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopAddress)
-2017-05-28 15:37:48 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 15:37:48 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 15:37:48 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 15:37:48 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 15:37:48 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 15:37:48 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 15:37:48 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 15:37:48 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2017-05-28 15:37:48 - Executing SQL script from class path resource [sql/create-shop.sql]
-2017-05-28 15:37:48 - Executed SQL script from class path resource [sql/create-shop.sql] in 6 ms.
-2017-05-28 15:37:48 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1bd39d3c: startup date [Sun May 28 15:37:43 IST 2017]; root of context hierarchy
-2017-05-28 15:37:48 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:37:48 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:37:48 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 15:37:49 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 15:37:49 - Registering beans for JMX exposure on startup
-2017-05-28 15:37:49 - Starting beans in phase 2147483647
-2017-05-28 15:37:49 - Tomcat started on port(s): 8080 (http)
-2017-05-28 15:37:49 - Started RetailMgrAppServer in 7.205 seconds (JVM running for 7.869)
-2017-05-28 15:38:10 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-05-28 15:38:10 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
-2017-05-28 15:38:10 - Started endpoint method saveShop, params - {}
-2017-05-28 15:38:17 - Started method saveShopDetails with params - {}
-2017-05-28 15:38:17 - Exception {}
-java.lang.NullPointerException: null
-	at com.ns.retailmgr.shops.service.ShopServiceImpl.addShop(ShopServiceImpl.java:55)
-	at com.ns.retailmgr.controller.ShopController.saveShop(ShopController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-2017-05-28 15:38:50 - Started endpoint method saveShop, params - {}
-2017-05-28 15:38:55 - Started method saveShopDetails with params - {}
-2017-05-28 15:38:57 - Exception {}
-java.lang.NullPointerException: null
-	at com.ns.retailmgr.shops.service.ShopServiceImpl.addShop(ShopServiceImpl.java:55)
-	at com.ns.retailmgr.controller.ShopController.saveShop(ShopController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-2017-05-28 15:39:14 - Started endpoint method saveShop, params - {}
-2017-05-28 15:39:30 - Started method saveShopDetails with params - {}
-2017-05-28 15:39:30 - Exception {}
-java.lang.NullPointerException: null
-	at com.ns.retailmgr.shops.service.ShopServiceImpl.addShop(ShopServiceImpl.java:55)
-	at com.ns.retailmgr.controller.ShopController.saveShop(ShopController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-2017-05-28 15:39:55 - Started endpoint method saveShop, params - {}
-2017-05-28 15:40:26 - Started method saveShopDetails with params - {}
-2017-05-28 15:40:26 - Exception {}
-java.lang.NullPointerException: null
-	at com.ns.retailmgr.shops.service.ShopServiceImpl.addShop(ShopServiceImpl.java:55)
-	at com.ns.retailmgr.controller.ShopController.saveShop(ShopController.java:56)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-2017-05-28 15:40:55 - Started endpoint method saveShop, params - {}
-2017-05-28 15:41:03 - Started method saveShopDetails with params - {}
-2017-05-28 15:41:03 - Started method getLngLatByAddress - params 560100
-2017-05-28 15:41:45 - Started endpoint method getNearByShops, params - [12.8751739, 77.71305129999999]
-2017-05-28 15:41:45 - Started method findShopNearByLatLng with params - [12.8751739, 77.71305129999999]
-2017-05-28 15:41:45 - Started method getNearestShopDetails - params 12.8751739,77.71305129999999
-2017-05-28 15:44:38 - Started endpoint method getNearByShops, params - [12.8751739, 77.71305129999999]
-2017-05-28 15:44:38 - Started method findShopNearByLatLng with params - [12.8751739, 77.71305129999999]
-2017-05-28 15:44:38 - Started method getNearestShopDetails - params 12.8751739,77.71305129999999
-2017-05-28 15:50:17 - Started endpoint method saveShop, params - {}
-2017-05-28 15:50:24 - Started method saveShopDetails with params - {}
-2017-05-28 15:50:24 - Started method getLngLatByAddress - params 560099
-2017-05-28 15:50:41 - Started endpoint method getNearByShops, params - [12.7842433, 77.69403150000001]
-2017-05-28 15:50:41 - Started method findShopNearByLatLng with params - [12.7842433, 77.69403150000001]
-2017-05-28 15:50:41 - Started method getNearestShopDetails - params 12.7842433,77.69403150000001
-2017-05-28 15:51:08 - Started endpoint method getNearByShops, params - [12.7842433, 77.69403150000001]
-2017-05-28 15:51:08 - Started method findShopNearByLatLng with params - [12.7842433, 77.69403150000001]
-2017-05-28 15:51:08 - Started method getNearestShopDetails - params 12.7842433,77.69403150000001
-2017-05-28 15:52:46 - Started endpoint method getNearByShops, params - [12.7842433, 77.69403150000001]
-2017-05-28 15:52:46 - Started method findShopNearByLatLng with params - [12.7842433, 77.69403150000001]
-2017-05-28 15:53:03 - Started method getNearestShopDetails - params 12.7842433,77.69403150000001
-2017-05-28 15:56:57 - Started endpoint method getNearByShops, params - [12.8124199, 77.69403150000001]
-2017-05-28 15:56:57 - Started method findShopNearByLatLng with params - [12.8124199, 77.69403150000001]
-2017-05-28 15:57:01 - Started method getNearestShopDetails - params 12.8124199,77.69403150000001
-2017-05-28 17:44:37 - Starting RetailMgrAppServer on nsahaytech with PID 29359 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
-2017-05-28 17:44:37 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2017-05-28 17:44:37 - No active profile set, falling back to default profiles: default
-2017-05-28 17:44:37 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@188715b5: startup date [Sun May 28 17:44:37 IST 2017]; root of context hierarchy
-2017-05-28 17:44:39 - Tomcat initialized with port(s): 8080 (http)
-2017-05-28 17:44:39 - Root WebApplicationContext: initialization completed in 2334 ms
-2017-05-28 17:44:40 - Mapping servlet: 'dispatcherServlet' to [/]
-2017-05-28 17:44:40 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-05-28 17:44:40 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-05-28 17:44:40 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-05-28 17:44:40 - Mapping filter: 'requestContextFilter' to: [/*]
-2017-05-28 17:44:41 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopAddress)
-2017-05-28 17:44:41 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
-2017-05-28 17:44:41 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
-2017-05-28 17:44:41 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2017-05-28 17:44:41 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2017-05-28 17:44:41 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2017-05-28 17:44:41 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-05-28 17:44:41 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-05-28 17:44:41 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@188715b5: startup date [Sun May 28 17:44:37 IST 2017]; root of context hierarchy
-2017-05-28 17:44:41 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 17:44:41 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 17:44:41 - Detected @ExceptionHandler methods in restControllerExceptionHandler
-2017-05-28 17:44:41 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-05-28 17:44:41 - Registering beans for JMX exposure on startup
-2017-05-28 17:44:41 - Starting beans in phase 2147483647
-2017-05-28 17:44:42 - Tomcat started on port(s): 8080 (http)
-2017-05-28 17:44:42 - Started RetailMgrAppServer in 5.358 seconds (JVM running for 6.314)
-2017-05-28 17:44:53 - FrameworkServlet 'dispatcherServlet': initialization started
-2017-05-28 17:44:53 - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
-2017-05-28 17:44:54 - Started endpoint method saveShop, params - {}
-2017-05-28 17:44:54 - Started method saveShopDetails with params - {}
-2017-05-28 17:44:54 - Started method getLngLatByAddress - params 560099
+2017-05-28 23:09:44 - Starting ShopControllerTest on nsahaytech with PID 16333 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:09:44 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:09:44 - No active profile set, falling back to default profiles: default
+2017-05-28 23:09:44 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@51abf713: startup date [Sun May 28 23:09:44 IST 2017]; root of context hierarchy
+2017-05-28 23:09:44 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+2017-05-28 23:09:44 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-28 23:09:44 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field shopService in com.ns.retailmgr.controller.ShopController required a bean of type 'com.ns.retailmgr.shops.service.ShopService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ns.retailmgr.shops.service.ShopService' in your configuration.
+
+2017-05-28 23:09:44 - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7920ba90] to prepare test instance [com.ns.retailmgr.controller.ShopControllerTest@add0edd]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 42 common frames omitted
+2017-05-28 23:09:44 - Starting ShopControllerTest on nsahaytech with PID 16333 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:09:44 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:09:44 - No active profile set, falling back to default profiles: default
+2017-05-28 23:09:44 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4525d1d3: startup date [Sun May 28 23:09:44 IST 2017]; root of context hierarchy
+2017-05-28 23:09:44 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+2017-05-28 23:09:44 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-28 23:09:44 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field shopService in com.ns.retailmgr.controller.ShopController required a bean of type 'com.ns.retailmgr.shops.service.ShopService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ns.retailmgr.shops.service.ShopService' in your configuration.
+
+2017-05-28 23:09:44 - Starting ShopControllerTest on nsahaytech with PID 16333 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:09:44 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:09:44 - No active profile set, falling back to default profiles: default
+2017-05-28 23:09:44 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b4d25e7: startup date [Sun May 28 23:09:44 IST 2017]; root of context hierarchy
+2017-05-28 23:09:45 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+2017-05-28 23:09:45 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-28 23:09:45 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field shopService in com.ns.retailmgr.controller.ShopController required a bean of type 'com.ns.retailmgr.shops.service.ShopService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ns.retailmgr.shops.service.ShopService' in your configuration.
+
+2017-05-28 23:09:45 - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7920ba90] to prepare test instance [com.ns.retailmgr.controller.ShopControllerTest@3d8b319e]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 42 common frames omitted
+2017-05-28 23:11:20 - Starting ShopControllerTest on nsahaytech with PID 16455 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:11:20 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:11:20 - No active profile set, falling back to default profiles: default
+2017-05-28 23:11:20 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2ddc9a9f: startup date [Sun May 28 23:11:20 IST 2017]; root of context hierarchy
+2017-05-28 23:11:21 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+2017-05-28 23:11:21 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-28 23:11:21 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field shopService in com.ns.retailmgr.controller.ShopController required a bean of type 'com.ns.retailmgr.shops.service.ShopService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ns.retailmgr.shops.service.ShopService' in your configuration.
+
+2017-05-28 23:11:21 - Starting ShopControllerTest on nsahaytech with PID 16455 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:11:21 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:11:21 - No active profile set, falling back to default profiles: default
+2017-05-28 23:11:21 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@61a5b4ae: startup date [Sun May 28 23:11:21 IST 2017]; root of context hierarchy
+2017-05-28 23:11:22 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+2017-05-28 23:11:22 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-28 23:11:22 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field shopService in com.ns.retailmgr.controller.ShopController required a bean of type 'com.ns.retailmgr.shops.service.ShopService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ns.retailmgr.shops.service.ShopService' in your configuration.
+
+2017-05-28 23:11:22 - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7920ba90] to prepare test instance [com.ns.retailmgr.controller.ShopControllerTest@add0edd]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 42 common frames omitted
+2017-05-28 23:11:22 - Starting ShopControllerTest on nsahaytech with PID 16455 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:11:22 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:11:22 - No active profile set, falling back to default profiles: default
+2017-05-28 23:11:22 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@682c1e93: startup date [Sun May 28 23:11:22 IST 2017]; root of context hierarchy
+2017-05-28 23:11:22 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+2017-05-28 23:11:22 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-28 23:11:22 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field shopService in com.ns.retailmgr.controller.ShopController required a bean of type 'com.ns.retailmgr.shops.service.ShopService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ns.retailmgr.shops.service.ShopService' in your configuration.
+
+2017-05-28 23:11:23 - Starting ShopControllerTest on nsahaytech with PID 16455 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:11:23 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:11:23 - No active profile set, falling back to default profiles: default
+2017-05-28 23:11:23 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@dca2615: startup date [Sun May 28 23:11:23 IST 2017]; root of context hierarchy
+2017-05-28 23:11:23 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+2017-05-28 23:11:23 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-28 23:11:23 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field shopService in com.ns.retailmgr.controller.ShopController required a bean of type 'com.ns.retailmgr.shops.service.ShopService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ns.retailmgr.shops.service.ShopService' in your configuration.
+
+2017-05-28 23:11:23 - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7920ba90] to prepare test instance [com.ns.retailmgr.controller.ShopControllerTest@23382f76]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shopController': Unsatisfied dependency expressed through field 'shopService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ns.retailmgr.shops.service.ShopService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=shopService)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1486)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 42 common frames omitted
+2017-05-28 23:12:08 - Starting ShopControllerTest on nsahaytech with PID 16515 (started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 23:12:08 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 23:12:08 - No active profile set, falling back to default profiles: default
+2017-05-28 23:12:08 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2ddc9a9f: startup date [Sun May 28 23:12:08 IST 2017]; root of context hierarchy
+2017-05-28 23:12:10 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2ddc9a9f: startup date [Sun May 28 23:12:08 IST 2017]; root of context hierarchy
+2017-05-28 23:12:10 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopAddress)
+2017-05-28 23:12:10 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
+2017-05-28 23:12:10 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-28 23:12:10 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-28 23:12:10 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 23:12:10 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 23:12:10 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 23:12:10 - Initializing Spring FrameworkServlet ''
+2017-05-28 23:12:10 - FrameworkServlet '': initialization started
+2017-05-28 23:12:10 - FrameworkServlet '': initialization completed in 16 ms
+2017-05-28 23:12:10 - Started ShopControllerTest in 3.009 seconds (JVM running for 4.012)
+2017-05-28 23:12:10 - Started endpoint method getNearByShops, params - [00, 00]
+2017-05-28 23:12:10 - Started endpoint method saveShop, params - {}
+2017-05-28 23:12:11 - Closing org.springframework.web.context.support.GenericWebApplicationContext@2ddc9a9f: startup date [Sun May 28 23:12:08 IST 2017]; root of context hierarchy
