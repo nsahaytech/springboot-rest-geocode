@@ -48,7 +48,7 @@ public class ShopServiceImpl implements ShopService{
 	private static List<ShopDetails> SHOP_LIST = new CopyOnWriteArrayList<>();
 	
 	@Override
-	public int addShop(ShopAddress shopAddress) throws Exception {
+	public int addShop(ShopAddress shopAddress){
 		LOGGER.debug("Started method {} with params - {}", "saveShopDetails");
 		//StringBuilder addressString  = new StringBuilder();
 		//addressString.append(shopAddress.getShopNumber()++"+"+shopAddress.getShopPostalCode());
@@ -65,7 +65,7 @@ public class ShopServiceImpl implements ShopService{
 	}
 
 	@Override
-	public List<ShopDetails> findShopNearByLatLng(String custLat, String custLng) throws Exception {
+	public List<ShopDetails> findShopNearByLatLng(String custLat, String custLng) {
 		LOGGER.debug("Started method {} with params - {}", "findShopNearByLatLng", new Object[] { custLat, custLng });
 		final String latlngParam = custLat + "," + custLng;
 		final GeoCodeLocInfo codingResponse = gMapConnector.getNearestShopDetails(latlngParam);

@@ -22,8 +22,8 @@ import com.ns.retailmgr.shops.model.ShopDetails;
 
 public interface ShopService {
 	
-	public int addShop(final ShopAddress shopDetails) throws Exception;
+	public int addShop(final ShopAddress shopDetails);
 	
-	public List<ShopDetails> findShopNearByLatLng(final String custLat, final String custLng) throws Exception;
+	public List<ShopDetails> findShopNearByLatLng(final String custLat, final String custLng);
 
 }
