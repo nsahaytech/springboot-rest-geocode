@@ -48,20 +48,21 @@ public class ShopServiceImpl implements ShopService{
 	private static List<ShopDetails> SHOP_LIST = new CopyOnWriteArrayList<>();
 	
 	@Override
-	public int addShop(ShopAddress shopAddress){
+	public ShopDetails addShop(ShopAddress shopAddress){
 		LOGGER.debug("Started method {} with params - {}", "saveShopDetails");
+		ShopDetails newShopDetails = null;
 		//StringBuilder addressString  = new StringBuilder();
 		//addressString.append(shopAddress.getShopNumber()++"+"+shopAddress.getShopPostalCode());
 		final Map<String, String> latLngMap = gMapConnector.getLngLatByAddress(shopAddress.getShopPostalCode().toString());
 		if (!latLngMap.isEmpty()) {
-			ShopDetails newShopDetails = new ShopDetails();
+			newShopDetails = new ShopDetails();
 			newShopDetails.setShopAddress(shopAddress);
 			newShopDetails.setShopLatitude(latLngMap.get(ShopConstant.LATITUDE_KEY));
 			newShopDetails.setShopLongtitude(latLngMap.get(ShopConstant.LONGITUDE_KEY));
 			SHOP_LIST.add(newShopDetails);
-			return 1;
+			return newShopDetails;
 		}
-		return 0;
+		return newShopDetails;
 	}
 
 	@Override

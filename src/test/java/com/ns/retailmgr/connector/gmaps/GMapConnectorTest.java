@@ -55,7 +55,7 @@ public class GMapConnectorTest {
 	public void test_getLngLatByAddress_Success() {
 		GeoCodeLocInfo codingResponse = testGeoCodingResponse();
 		when(restTemplate.getForObject(anyString(), eq(GeoCodeLocInfo.class))).thenReturn(codingResponse);
-		Map<String, String> map = gmapConnector.getLngLatByAddress("khaadi");
+		Map<String, String> map = gmapConnector.getLngLatByAddress("TestShop");
 		assertEquals(map.get("lat"), Double.toString(12.8124));
 		assertEquals(map.get("lng"), Double.toString(177.69));
 	}
@@ -64,7 +64,7 @@ public class GMapConnectorTest {
 	public void test_getLngLatByAddress_Failure() {
 		when(restTemplate.getForObject(anyString(), eq(GeoCodeLocInfo.class)))
 				.thenThrow(new HttpClientErrorException(HttpStatus.BAD_REQUEST));
-		gmapConnector.getLngLatByAddress("khaadi");
+		gmapConnector.getLngLatByAddress("TestShop");
 	}
 
 	@Test

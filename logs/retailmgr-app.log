@@ -721,3 +721,36 @@ java.lang.NullPointerException: null
 2017-05-28 15:56:57 - Started endpoint method getNearByShops, params - [12.8124199, 77.69403150000001]
 2017-05-28 15:56:57 - Started method findShopNearByLatLng with params - [12.8124199, 77.69403150000001]
 2017-05-28 15:57:01 - Started method getNearestShopDetails - params 12.8124199,77.69403150000001
+2017-05-28 17:44:37 - Starting RetailMgrAppServer on nsahaytech with PID 29359 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 17:44:37 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 17:44:37 - No active profile set, falling back to default profiles: default
+2017-05-28 17:44:37 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@188715b5: startup date [Sun May 28 17:44:37 IST 2017]; root of context hierarchy
+2017-05-28 17:44:39 - Tomcat initialized with port(s): 8080 (http)
+2017-05-28 17:44:39 - Root WebApplicationContext: initialization completed in 2334 ms
+2017-05-28 17:44:40 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-28 17:44:40 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-28 17:44:40 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-28 17:44:40 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-28 17:44:40 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-28 17:44:41 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopAddress)
+2017-05-28 17:44:41 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
+2017-05-28 17:44:41 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-28 17:44:41 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-05-28 17:44:41 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-05-28 17:44:41 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-05-28 17:44:41 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-28 17:44:41 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-28 17:44:41 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@188715b5: startup date [Sun May 28 17:44:37 IST 2017]; root of context hierarchy
+2017-05-28 17:44:41 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 17:44:41 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 17:44:41 - Detected @ExceptionHandler methods in restControllerExceptionHandler
+2017-05-28 17:44:41 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 17:44:41 - Registering beans for JMX exposure on startup
+2017-05-28 17:44:41 - Starting beans in phase 2147483647
+2017-05-28 17:44:42 - Tomcat started on port(s): 8080 (http)
+2017-05-28 17:44:42 - Started RetailMgrAppServer in 5.358 seconds (JVM running for 6.314)
+2017-05-28 17:44:53 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-05-28 17:44:53 - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2017-05-28 17:44:54 - Started endpoint method saveShop, params - {}
+2017-05-28 17:44:54 - Started method saveShopDetails with params - {}
+2017-05-28 17:44:54 - Started method getLngLatByAddress - params 560099

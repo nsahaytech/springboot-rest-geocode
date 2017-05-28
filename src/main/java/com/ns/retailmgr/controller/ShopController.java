@@ -53,17 +53,18 @@ public class ShopController {
 		public ResponseEntity<Object> saveShop(@RequestBody ShopAddress shopAddress) {
 			LOGGER.info("Started endpoint method {}, params - {}", "saveShop");
 			try {
-				int saveCount = shopService.addShop(shopAddress);
-				if (saveCount == 0) {
+				ShopDetails newShopDetails = shopService.addShop(shopAddress);
+				if (newShopDetails == null) {
 					return new ResponseEntity<Object>(
-							"Unable to find latitude and logitude for shop postal code provided, please check and resubmit again",
+							"Unable to find latitude and logitude for shop details provided, please check and resubmit again",
 							HttpStatus.BAD_REQUEST);
 				}
+				return new ResponseEntity<Object>(newShopDetails, HttpStatus.CREATED);
 			} catch (Exception e) {
 				LOGGER.error("Exception {}", e);
 				return new ResponseEntity(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
 			} 
-			return new ResponseEntity<Object>(HttpStatus.CREATED);
+			
 		}
 
 		@ApiOperation(consumes = MediaType.ALL_VALUE, produces = MediaType.APPLICATION_JSON_VALUE, httpMethod = "GET", value = "", response = ShopDetails.class, notes = "Find List of shop matching to provided latitude and longitude", responseContainer = "List")
