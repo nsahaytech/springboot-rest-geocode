@@ -26,13 +26,11 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.springframework.boot:spring-boot-starter-jdbc")
     compile("com.fasterxml.jackson.core:jackson-databind")
     compile("org.apache.httpcomponents:httpclient")
     compile("com.fasterxml.jackson.core:jackson-core")
     compile("com.fasterxml.jackson.dataformat:jackson-dataformat-xml")
     compile("com.google.maps:google-maps-services:0.1.15")
-    runtime("com.h2database:h2")
     compile("io.springfox:springfox-swagger-ui:2.5.0")
     compile("io.springfox:springfox-swagger2:2.6.1")
     testCompile("org.springframework.boot:spring-boot-starter-test")

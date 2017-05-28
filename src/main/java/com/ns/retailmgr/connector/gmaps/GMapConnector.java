@@ -21,7 +21,7 @@ import com.ns.retailmgr.connector.gmaps.model.GeoCodeLocInfo;
 
 public interface GMapConnector {
 	
-	Map<String, String> getLngLatByAddress(final Long address) throws RuntimeException;
+	Map<String, String> getLngLatByAddress(final String address) throws RuntimeException;
 	
 	GeoCodeLocInfo getNearestShopDetails(final String latlngParam) throws RuntimeException;
 

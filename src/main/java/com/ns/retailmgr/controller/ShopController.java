@@ -15,7 +15,6 @@
  ******************************************************************************/
 package com.ns.retailmgr.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -31,6 +30,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ns.retailmgr.shops.model.ShopAddress;
 import com.ns.retailmgr.shops.model.ShopDetails;
 import com.ns.retailmgr.shops.service.ShopService;
 
@@ -50,10 +50,10 @@ public class ShopController {
 
 		@ApiOperation(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE, httpMethod = "POST", value = "", response = String.class, notes = "Save the shop details")
 		@RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-		public ResponseEntity<Object> saveShop(@RequestBody ShopDetails shopDetails) {
-			LOGGER.info("Started endpoint method {}, params - {}", "saveShop", shopDetails.toString());
+		public ResponseEntity<Object> saveShop(@RequestBody ShopAddress shopAddress) {
+			LOGGER.info("Started endpoint method {}, params - {}", "saveShop");
 			try {
-				int saveCount = shopService.addShop(shopDetails);
+				int saveCount = shopService.addShop(shopAddress);
 				if (saveCount == 0) {
 					return new ResponseEntity<Object>(
 							"Unable to find latitude and logitude for shop postal code provided, please check and resubmit again",

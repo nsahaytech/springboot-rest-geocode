@@ -47,7 +47,7 @@ public class GMapConnectorImpl implements GMapConnector {
 	private String geoLocationUrl;
 	
 	@Override
-	public Map<String, String> getLngLatByAddress(Long address) throws RuntimeException {
+	public Map<String, String> getLngLatByAddress(String address) throws RuntimeException {
 		LOGGER.debug("Started method {} - params {}", "getLngLatByAddress", address);
 		final String url = geoLatngUrl + address;
 		try {
