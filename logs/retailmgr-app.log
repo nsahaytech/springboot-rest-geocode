@@ -1,0 +1,89 @@
+2017-05-28 11:54:00 - Starting RetailMgrAppServer on nsahaytech with PID 13674 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 11:54:00 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 11:54:00 - No active profile set, falling back to default profiles: default
+2017-05-28 11:56:19 - Application startup failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [CONSOLE]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [CONSOLE]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
+	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
+	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.ns.retailmgr.RetailMgrAppServer.main(RetailMgrAppServer.java:26)
+2017-05-28 11:56:36 - Application startup failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [CONSOLE]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [CONSOLE]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
+	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
+	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:73)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.ns.retailmgr.RetailMgrAppServer.main(RetailMgrAppServer.java:26)
+2017-05-28 11:57:13 - Starting RetailMgrAppServer on nsahaytech with PID 13946 (/home/nishant/Study/spring/springcloud/projects/assignment-springboot/bin started by nishant in /home/nishant/Study/spring/springcloud/projects/assignment-springboot)
+2017-05-28 11:57:13 - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-05-28 11:57:13 - No active profile set, falling back to default profiles: default
+2017-05-28 11:57:13 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 11:57:13 IST 2017]; root of context hierarchy
+2017-05-28 11:57:15 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6ccc0d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-05-28 11:57:16 - Tomcat initialized with port(s): 8080 (http)
+2017-05-28 11:57:16 - Root WebApplicationContext: initialization completed in 2882 ms
+2017-05-28 11:57:16 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-28 11:57:16 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-05-28 11:57:16 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-28 11:57:16 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-28 11:57:16 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-28 11:57:16 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-28 11:57:17 - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2017-05-28 11:57:17 - Executing SQL script from class path resource [sql/create-shop.sql]
+2017-05-28 11:57:17 - Executed SQL script from class path resource [sql/create-shop.sql] in 9 ms.
+2017-05-28 11:57:18 - Mapped "{[/shop],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.ns.retailmgr.controller.ShopController.saveShop(com.ns.retailmgr.shops.model.ShopDetails)
+2017-05-28 11:57:18 - Mapped "{[/shop],methods=[GET],consumes=[*/*],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.ns.retailmgr.controller.ShopController.getNearByShops(java.lang.String,java.lang.String)
+2017-05-28 11:57:18 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-05-28 11:57:18 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-05-28 11:57:18 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-05-28 11:57:18 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-05-28 11:57:18 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-28 11:57:18 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-28 11:57:18 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 11:57:13 IST 2017]; root of context hierarchy
+2017-05-28 11:57:18 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 11:57:18 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 11:57:18 - Detected @ExceptionHandler methods in restControllerExceptionHandler
+2017-05-28 11:57:18 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-28 11:57:19 - Registering beans for JMX exposure on startup
+2017-05-28 11:57:19 - Starting beans in phase 2147483647
+2017-05-28 11:57:19 - Tomcat started on port(s): 8080 (http)
+2017-05-28 11:57:19 - Started RetailMgrAppServer in 6.791 seconds (JVM running for 7.427)
+2017-05-28 11:57:36 - Application shutdown requested.
+2017-05-28 11:57:36 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eda5c9: startup date [Sun May 28 11:57:13 IST 2017]; root of context hierarchy
+2017-05-28 11:57:36 - Stopping beans in phase 2147483647
+2017-05-28 11:57:36 - Unregistering JMX-exposed beans on shutdown
+2017-05-28 11:57:36 - Shutting down embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
