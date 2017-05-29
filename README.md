@@ -31,13 +31,94 @@
 		java -jar <application jar>
 4.  For API details invoke swagger ui url of the running application
 		http://localhost:8080/swagger-ui.html
-5.  Sample request data for the API are available in /src/test/resources/sample_request/request.json
-6.  JUnit test report is available in 
-7.  JUnit code coverage is available in /src/test/resources/coverage
-8.  In order to rerun code coverage for JUnit tests, following command need to be executed
+5.  JUnit test report is available in 
+6.  JUnit code coverage is available in /src/test/resources/coverage
+7.  In order to rerun code coverage for JUnit tests, following command need to be executed
 		./gradlew clean build jacocoTestReport
 
+### API Details (Sample Requests)
 
+1.  Save Shop Details
+    
+    **Curl Request**
+	curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+	  "address": {
+	    "shopAddress.number": 123,
+	    "shopAddress.postCode": 560100
+	  },
+	  "shopName": "test2"
+	}' 'http://localhost:8080/shop'
+
+    **Request URL** 
+    	http://localhost:8080/shop
+
+    **Request Headers**
+	{
+	  "Accept": "application/json"
+	}
+
+    **Response Body**
+	
+	For Create: No Content
+
+	For Update:	
+	{
+	  "shopLongtitude": "77.6544856",
+	  "shopLatitude": "12.8498481",
+	  "address": {
+	    "shopAddress.number": 123,
+	    "shopAddress.postCode": 560100
+	  },
+	  "shopName": "test2"
+	}
+
+    **Response Code**
+
+	For Create: 201
+
+	For Update: 200
+
+2.  Find Nearby Shops
+
+    **Curl Request**
+	curl -X GET --header 'Accept: application/json' 'http://localhost:8080/shop?customerLatitude=12.8498481&customerLongitude=77.6544856'
+
+    **Request URL** 
+    	http://localhost:8080/shop?customerLatitude=12.8498481&customerLongitude=77.6544856
+
+    **Request Headers**
+	{
+	  "Accept": "application/json"
+	}
+
+    **Response Body**
+	
+	[
+	  {
+	    "shopLongtitude": "77.6544856",
+	    "shopLatitude": "12.8498481",
+	    "address": {
+	      "shopAddress.number": 123,
+	      "shopAddress.postCode": 560100
+	    },
+	    "shopName": "test2"
+	  },
+	  {
+	    "shopLongtitude": "77.6544856",
+	    "shopLatitude": "12.8498481",
+	    "address": {
+	      "shopAddress.number": 123,
+	      "shopAddress.postCode": 560100
+	    },
+	    "shopName": "test"
+	  }
+	]
+
+    **Response Code**
+
+	200
+
+        
 
 ### Integration:
 
