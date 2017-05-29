@@ -91,10 +91,12 @@ public class ShopControllerTest {
     	mockShopDetails.setShopAddress(mockShopAddress);
     	
     	
+    	
     }
     
     @Test
     public void test_addShop_Success() throws Exception {
+    	mockShopDetails.setStatus("New");
     	when(shopService.addShop(any(ShopDetails.class))).thenReturn(mockShopDetails);
     	RequestBuilder requestBuilder = MockMvcRequestBuilders.post(
 				"/shop").accept(MediaType.APPLICATION_JSON).content(objectMapper.writeValueAsBytes(jsonAddress))
@@ -123,6 +125,17 @@ public class ShopControllerTest {
 		assertEquals(1, myObject.length());
     }
     
+    @Test
+    public void test_updateShop_Success() throws Exception {
+    	
+    	when(shopService.addShop(any(ShopDetails.class))).thenReturn(mockShopDetails);
+    	RequestBuilder requestBuilder = MockMvcRequestBuilders.post(
+				"/shop").accept(MediaType.APPLICATION_JSON).content(objectMapper.writeValueAsBytes(jsonAddress))
+				.contentType(MediaType.APPLICATION_JSON);
 
+    	MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		MockHttpServletResponse response = result.getResponse();
+		assertEquals(HttpStatus.OK.value(), response.getStatus());
+    }
 
 }
