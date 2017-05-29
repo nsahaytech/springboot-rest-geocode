@@ -70,7 +70,7 @@ public class ShopController {
 			
 		}
 
-		@ApiOperation(consumes = MediaType.ALL_VALUE, produces = MediaType.APPLICATION_JSON_VALUE, httpMethod = "GET", value = "", response = ShopDetails.class, notes = "Find List of shop matching to provided latitude and longitude", responseContainer = "List")
+		@ApiOperation(consumes = MediaType.ALL_VALUE, produces = MediaType.APPLICATION_JSON_VALUE, httpMethod = "GET", value = "", response = ShopDetails.class, notes = "Find List of nearby shops for the provided latitude and longitude", responseContainer = "List")
 		@ApiImplicitParams({
 				@ApiImplicitParam(name = "customerLatitude", value = "Laitude of Customer's location", required = true, dataType = "string", paramType = "query"),
 				@ApiImplicitParam(name = "customerLongitude", value = "Longitude of Customer's location", required = true, dataType = "string", paramType = "query") })
