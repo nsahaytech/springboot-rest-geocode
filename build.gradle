@@ -12,6 +12,8 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: "jacoco"
+apply plugin: 'pmd'
+apply plugin: 'findbugs'
 
 jar {
     baseName = 'assignment-springboot'
@@ -52,4 +54,25 @@ jacocoTestReport {
         csv.enabled false
         html.destination "${buildDir}/reports/coverage"
 	}
+}
+
+findbugs{
+    ignoreFailures=true
+    findbugsTest.enabled=false
+}
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
+tasks.withType(Pmd){
+    reports{
+        xml.enabled=true
+        html.enabled=true
+    }
+}
+pmd {
+   ignoreFailures = true
+    pmdTest.enabled=false
 }
