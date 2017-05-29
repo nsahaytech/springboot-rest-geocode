@@ -19,6 +19,7 @@
 *   shopLongitude
 *   shopLatitude
 
+**Note:** Shop name uniquely identifies a shop
 
 ### Application Setup:
 
@@ -133,3 +134,13 @@ Google GeoCoding Map Service (https://developers.google.com/maps/documentation/g
 *   https://maps.googleapis.com/maps/api/geocode/json?sensor=false&latlng=
 
 ### Checklist:
+
+*   API to save shop details. This API should accept shopName, shopNumber and Shop Postal Code in JSON format. Internally google geo code api 	 is utilized to fetch the latitude and longitude for the postal code provided and saves the Shop details with latitude and longitude details in InMemory repository
+*   API to retrieve nearby shops. This API accepts latitude and longitude as request params and return list of near by shops for the provided inputs
+*   Project should be available in github with required ReadMe file providing instructions on how to build and run the app.
+*   Adequate unit test cases for important classes should be available.
+*   Unit test cases should run during the build process
+*   Unit tests should have predefined and agreed code coverage
+*   Build process should also run static code analysis tool including PMD, FindBugs
+*   Java and Spring best practises to be followed
+*   
