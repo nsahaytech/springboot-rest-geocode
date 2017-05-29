@@ -25,16 +25,22 @@
 
 1.  Checkout project from git repository. 
 		https://github.com/nsahaytech/springboot-rest-geocode.git
-2.  Build the project. 
+2.  Build the project which also runs the junit tests and executes pmd, findbug over the source folder excuding test files
 		./gradlew clean build
 3.  Run application as SpringBoot
-		java -jar <application jar>
+		java -jar build/libs/springboot-rest-geocode-0.1.0.jar
 4.  For API details invoke swagger ui url of the running application
 		http://localhost:8080/swagger-ui.html
-5.  JUnit test report is available in 
-6.  JUnit code coverage is available in /src/test/resources/coverage
-7.  In order to rerun code coverage for JUnit tests, following command need to be executed
+5.  In order to rerun code coverage for JUnit tests, following command need to be executed
 		./gradlew clean build jacocoTestReport
+6.  JUnit code coverage report is generated in 
+		/build/reports/coverage
+7.  JUnit Test reports are generated in 
+		/build/reports/tests/test
+8.  PMD report is generated in 
+		/build/reports/pmd
+9.  FindBugs report is generated in
+		/build/reports/findbugs
 
 ### API Details (Sample Requests)
 
@@ -125,3 +131,5 @@
 Google GeoCoding Map Service (https://developers.google.com/maps/documentation/geocoding/intro) for retrieving location info based on address/latitude and longitude
 *   https://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=
 *   https://maps.googleapis.com/maps/api/geocode/json?sensor=false&latlng=
+
+### Checklist:
