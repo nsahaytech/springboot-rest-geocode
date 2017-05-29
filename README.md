@@ -142,5 +142,4 @@ Google GeoCoding Map Service (https://developers.google.com/maps/documentation/g
 *   Unit test cases should run during the build process
 *   Unit tests should have predefined and agreed code coverage
 *   Build process should also run static code analysis tool including PMD, FindBugs
-*   Java and Spring best practises to be followed
-*   
+*   Java and Spring best practises to be followed 
