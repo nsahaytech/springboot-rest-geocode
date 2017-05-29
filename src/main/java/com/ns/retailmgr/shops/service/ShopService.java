@@ -22,7 +22,7 @@ import com.ns.retailmgr.shops.model.ShopDetails;
 
 public interface ShopService {
 	
-	public ShopDetails addShop(final ShopAddress shopDetails);
+	public ShopDetails addShop(final ShopDetails shopDetails);
 	
 	public List<ShopDetails> findShopNearByLatLng(final String custLat, final String custLng);
 

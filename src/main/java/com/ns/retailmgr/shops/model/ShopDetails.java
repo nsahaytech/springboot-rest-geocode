@@ -17,6 +17,7 @@ package com.ns.retailmgr.shops.model;
 
 import java.io.Serializable;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import io.swagger.annotations.ApiModelProperty;
@@ -37,6 +38,25 @@ public class ShopDetails implements Serializable {
 	private String shopLongtitude;
 	private String shopLatitude;
 	
+	@JsonProperty(value = "shopName", required = true)
+    @ApiModelProperty(notes = "The name of the shop", required = true)
+	private String shopName;
+	
+	@JsonIgnore
+	private String status;
+	
+	/**
+	 * @return the shopName
+	 */
+	public String getShopName() {
+		return shopName;
+	}
+	/**
+	 * @param shopName the shopName to set
+	 */
+	public void setShopName(String shopName) {
+		this.shopName = shopName;
+	}
 	public ShopAddress getShopAddress() {
 		return shopAddress;
 	}
@@ -58,6 +78,18 @@ public class ShopDetails implements Serializable {
 	}
 	public static long getSerialversionuid() {
 		return serialVersionUID;
+	}
+	/**
+	 * @return the status
+	 */
+	public String getStatus() {
+		return status;
+	}
+	/**
+	 * @param status the status to set
+	 */
+	public void setStatus(String status) {
+		this.status = status;
 	}
 	
 	

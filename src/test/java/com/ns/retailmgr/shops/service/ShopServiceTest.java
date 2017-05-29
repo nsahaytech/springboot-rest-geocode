@@ -69,9 +69,8 @@ public class ShopServiceTest {
 		
 	
 		shopDetails = new ShopDetails();
-
+		shopDetails.setShopName("Test Shop");
 		address = new ShopAddress();
-		address.setShopName("Test Shop");
 		address.setShopNumber(123);
 		address.setShopPostalCode(560099);
 		shopDetails.setShopAddress(address);
@@ -83,8 +82,8 @@ public class ShopServiceTest {
 		latlngMap.put("lat", "12.8124199");
 		latlngMap.put("lng", "77.69403150000001");
 		when(gmapConnector.getLngLatByAddress(anyString())).thenReturn(latlngMap);
-		ShopDetails addShopDetails = shopDetailsService.addShop(address);
-		assertEquals(shopDetails.getShopAddress().getShopName(), addShopDetails.getShopAddress().getShopName());
+		ShopDetails addShopDetails = shopDetailsService.addShop(shopDetails);
+		assertEquals(shopDetails.getShopName(), addShopDetails.getShopName());
 	}
 
 	@Test(expected = Exception.class)
@@ -93,7 +92,7 @@ public class ShopServiceTest {
 		latlngMap.put("lat", "12.8124199");
 		latlngMap.put("lng", "77.69403150000001");
 		when(gmapConnector.getLngLatByAddress(anyString())).thenThrow(new Exception());
-		shopDetailsService.addShop(address);
+		shopDetailsService.addShop(shopDetails);
 	}
 	
 	@Test

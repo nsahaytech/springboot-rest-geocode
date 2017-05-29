@@ -50,16 +50,19 @@ public class ShopController {
 
 		@ApiOperation(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE, httpMethod = "POST", value = "", response = String.class, notes = "Save the shop details")
 		@RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-		public ResponseEntity<Object> saveShop(@RequestBody ShopAddress shopAddress) {
+		public ResponseEntity<Object> saveShop(@RequestBody ShopDetails shopDetails) {
 			LOGGER.info("Started endpoint method {}, params - {}", "saveShop");
 			try {
-				ShopDetails newShopDetails = shopService.addShop(shopAddress);
+				ShopDetails newShopDetails = shopService.addShop(shopDetails);
 				if (newShopDetails == null) {
 					return new ResponseEntity<Object>(
 							"Unable to find latitude and logitude for shop details provided, please check and resubmit again",
 							HttpStatus.BAD_REQUEST);
 				}
-				return new ResponseEntity<Object>(newShopDetails, HttpStatus.CREATED);
+				if(newShopDetails.getStatus() != null)
+					return new ResponseEntity<Object>( HttpStatus.CREATED);
+				else
+					return new ResponseEntity<Object>(newShopDetails, HttpStatus.OK);
 			} catch (Exception e) {
 				LOGGER.error("Exception {}", e);
 				return new ResponseEntity(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);

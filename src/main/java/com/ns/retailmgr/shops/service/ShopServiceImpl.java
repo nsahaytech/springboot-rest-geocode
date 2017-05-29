@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.slf4j.Logger;
@@ -45,24 +46,34 @@ public class ShopServiceImpl implements ShopService{
 	private GMapConnector gMapConnector;
 	
 
-	private static List<ShopDetails> SHOP_LIST = new CopyOnWriteArrayList<>();
+	private static Map<String, ShopDetails> SHOP_LIST = new ConcurrentHashMap<>();
 	
 	@Override
-	public ShopDetails addShop(ShopAddress shopAddress){
-		LOGGER.debug("Started method {} with params - {}", "saveShopDetails");
-		ShopDetails newShopDetails = null;
-		//StringBuilder addressString  = new StringBuilder();
-		//addressString.append(shopAddress.getShopNumber()++"+"+shopAddress.getShopPostalCode());
+	public ShopDetails addShop(ShopDetails shopDetails){
+		LOGGER.debug("Started method {} with params - {}", "addShop");
+		ShopDetails displayShopDetails = null;
+		ShopAddress shopAddress = shopDetails.getShopAddress();
+		String shopName = shopDetails.getShopName();
+		ShopDetails oldShopDetails = SHOP_LIST.get(shopName);
 		final Map<String, String> latLngMap = gMapConnector.getLngLatByAddress(shopAddress.getShopPostalCode().toString());
 		if (!latLngMap.isEmpty()) {
-			newShopDetails = new ShopDetails();
-			newShopDetails.setShopAddress(shopAddress);
-			newShopDetails.setShopLatitude(latLngMap.get(ShopConstant.LATITUDE_KEY));
-			newShopDetails.setShopLongtitude(latLngMap.get(ShopConstant.LONGITUDE_KEY));
-			SHOP_LIST.add(newShopDetails);
-			return newShopDetails;
+			displayShopDetails = new ShopDetails();
+			displayShopDetails.setShopName(shopName);
+			displayShopDetails.setShopAddress(shopAddress);
+			displayShopDetails.setShopLatitude(latLngMap.get(ShopConstant.LATITUDE_KEY));
+			displayShopDetails.setShopLongtitude(latLngMap.get(ShopConstant.LONGITUDE_KEY));
+			
+			SHOP_LIST.put(shopName, displayShopDetails);
+			if(oldShopDetails != null){
+				return oldShopDetails;
+			}else{
+				displayShopDetails.setStatus("NEW");
+				return displayShopDetails;
+			}
+			
+			
 		}
-		return newShopDetails;
+		return displayShopDetails;
 	}
 
 	@Override
@@ -89,12 +100,13 @@ public class ShopServiceImpl implements ShopService{
 	private void getResult(final Map<String, ShopDetails> tempMap, AddressComponent addressComponent) {
 		for (String types : addressComponent.getTypes()) {
 			if (types.equalsIgnoreCase("postal_code")) {
-				for (ShopDetails shopDetailsVo : SHOP_LIST) {
+				for (Map.Entry<String, ShopDetails> entry : SHOP_LIST.entrySet()) {
+					ShopDetails shopDetailsVo = entry.getValue();
 					ShopAddress tempShopAddress = shopDetailsVo.getShopAddress();
 					String pCode = Integer.toString(tempShopAddress.getShopPostalCode());
 					if (addressComponent.getLongName().equalsIgnoreCase(pCode)
 							|| addressComponent.getShortName().equalsIgnoreCase(pCode)) {
-						tempMap.put(tempShopAddress.getShopName(), shopDetailsVo);
+						tempMap.put(shopDetailsVo.getShopName(), shopDetailsVo);
 					}
 				}
 			}

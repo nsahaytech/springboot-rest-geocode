@@ -83,11 +83,11 @@ public class ShopControllerTest {
     	jsonAddress.put("shopName", "testAddShop_Success");
     	
     	mockShopAddress = new ShopAddress();
-    	mockShopAddress.setShopName("testAddShop_Success");
     	mockShopAddress.setShopNumber(1234);
     	mockShopAddress.setShopPostalCode(560099);
     	    	
     	mockShopDetails = new ShopDetails();
+    	mockShopDetails.setShopName("testAddShop_Success");
     	mockShopDetails.setShopAddress(mockShopAddress);
     	
     	
@@ -95,7 +95,7 @@ public class ShopControllerTest {
     
     @Test
     public void test_addShop_Success() throws Exception {
-    	when(shopService.addShop(any(ShopAddress.class))).thenReturn(mockShopDetails);
+    	when(shopService.addShop(any(ShopDetails.class))).thenReturn(mockShopDetails);
     	RequestBuilder requestBuilder = MockMvcRequestBuilders.post(
 				"/shop").accept(MediaType.APPLICATION_JSON).content(objectMapper.writeValueAsBytes(jsonAddress))
 				.contentType(MediaType.APPLICATION_JSON);
