@@ -16,7 +16,7 @@ apply plugin: 'pmd'
 apply plugin: 'findbugs'
 
 jar {
-    baseName = 'assignment-springboot'
+    baseName = 'springboot-rest-geocode'
     version = '0.1.0'
 }
 
@@ -49,6 +49,13 @@ jacoco {
 
 jacocoTestReport {
     group = "Reporting"
+    afterEvaluate {
+        classDirectories = files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: ['com/ns/retailmgr/controller/exception/**',
+            'com/ns/retailmgr/config/**',
+            'com/ns/retailmgr/RetailMgrAppServer.*'])
+        })
+    }
     reports {
         xml.enabled true
         csv.enabled false
@@ -75,4 +82,23 @@ tasks.withType(Pmd){
 pmd {
    ignoreFailures = true
     pmdTest.enabled=false
+    ruleSets = [
+            'java-basic',
+            'java-braces',
+            'java-clone',
+            'java-codesize',
+            'java-comments',
+            'java-controversial',
+            'java-coupling',
+            'java-design',
+            'java-empty',
+            'java-finalizers',
+            'java-imports',
+            'java-optimizations',
+            'java-strictexception',
+            'java-strings',
+            'java-typeresolution',
+            'java-unnecessary',
+            'java-unusedcode'
+    ]
 }
