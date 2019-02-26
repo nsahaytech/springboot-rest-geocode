@@ -20,6 +20,11 @@ jar {
     version = '0.1.0'
 }
 
+war {
+    baseName = 'springboot-rest-geocode'
+    version = '0.1.0'
+}
+
 repositories {
     mavenCentral()
 }
