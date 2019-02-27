@@ -32,7 +32,7 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.springframework.boot:spring-boot-starter-tomcat")
+    provided("org.springframework.boot:spring-boot-starter-tomcat")
     compile("com.fasterxml.jackson.core:jackson-databind")
     compile("org.apache.httpcomponents:httpclient")
     compile("com.fasterxml.jackson.core:jackson-core")
